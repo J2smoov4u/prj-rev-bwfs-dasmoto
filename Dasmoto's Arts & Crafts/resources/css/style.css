@@ -1,0 +1,110 @@
+/* Style for project to make it almost identical, except for a few minor changes to increase UI*/
+/* For exact project requested, only use the following code*/
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+/*Block lines 26-34 and delete code on line 40 and 110 to use second style*/
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+#frames h2 {
+  background-color: lightcoral;
+}
+#paint h2 {
+  background-color: skyblue;
+}
+
+
+
+/* Use the following code to give the viewer a better experience*/
+/* Make sure to block of the first set of rules Exexpt for span and to unblock the follwing*/
+/*
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+#paint {
+  background-color: skyblue;
+}
+#brushes {
+  background-color: mediumspringgreen;
+}
+html {
+  background-color: grey;
+}
+
+.nav {
+  background: #000;
+  height: 80px;
+  width: 100%;
+  color: grey;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block;
+  height; 80px;
+  line-height: 80px;
+  line-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+}
+
+.nav ul li:hover {
+  background: khaki;
+  cursor: pointer;
+  color:black;
+  transition: background .5s;
+}
+
+
+.header, h1 {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*/
